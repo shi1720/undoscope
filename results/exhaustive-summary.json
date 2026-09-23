@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "snapshot": {
+      "eligible": 678,
+      "collateral": 1035,
+      "recovered": 19,
+      "cases": 1364
+    },
+    "mapped": {
+      "eligible": 678,
+      "collateral": 521,
+      "recovered": 523,
+      "cases": 1364
+    },
+    "value": {
+      "eligible": 678,
+      "collateral": 271,
+      "recovered": 95,
+      "cases": 1364
+    },
+    "object": {
+      "eligible": 678,
+      "collateral": 0,
+      "recovered": 4,
+      "cases": 1364
+    },
+    "field": {
+      "eligible": 678,
+      "collateral": 0,
+      "recovered": 42,
+      "cases": 1364
+    },
+    "undoscope": {
+      "eligible": 678,
+      "collateral": 0,
+      "recovered": 678,
+      "cases": 1364
+    },
+    "deny": {
+      "eligible": 678,
+      "collateral": 0,
+      "recovered": 0,
+      "cases": 1364
+    }
+  },
+  "seconds": 2.388387166982284,
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "depth": 4,
+  "alphabet_size": 4
+}

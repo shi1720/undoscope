@@ -1,0 +1,61 @@
+{
+  "ablations": {
+    "consumption": 0,
+    "expiry": 1,
+    "incarnation": 1,
+    "invariant": 1,
+    "none": 0,
+    "policy": 1,
+    "provenance": 2,
+    "scope": 1
+  },
+  "durability": {
+    "trials": 90,
+    "passed": 90,
+    "parallel_attempts": 960
+  },
+  "latency": {
+    "snapshot": {
+      "n": 250,
+      "median_us": 75.3955,
+      "p95_us": 145.833
+    },
+    "mapped": {
+      "n": 250,
+      "median_us": 68.625,
+      "p95_us": 111.0
+    },
+    "value": {
+      "n": 250,
+      "median_us": 68.542,
+      "p95_us": 154.083
+    },
+    "object": {
+      "n": 250,
+      "median_us": 69.229,
+      "p95_us": 117.292
+    },
+    "field": {
+      "n": 250,
+      "median_us": 68.667,
+      "p95_us": 123.333
+    },
+    "undoscope": {
+      "n": 250,
+      "median_us": 68.1875,
+      "p95_us": 136.084
+    },
+    "deny": {
+      "n": 250,
+      "median_us": 47.937,
+      "p95_us": 103.833
+    }
+  },
+  "environment": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "journal": "WAL",
+    "synchronous": "FULL"
+  }
+}

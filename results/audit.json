@@ -1,0 +1,8 @@
+{
+  "history_policy_rows": 9548,
+  "model_episodes": 240,
+  "unique_api_responses": 720,
+  "model_branches_replayed": 480,
+  "durable_trials": 90,
+  "status": "passed"
+}

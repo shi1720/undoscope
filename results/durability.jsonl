@@ -1,0 +1,90 @@
+{"trial": 0, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 0, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 0, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 1, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 1, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 1, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 2, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 2, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 2, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 3, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 3, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 3, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 4, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 4, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 4, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 5, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 5, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 5, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 6, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 6, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 6, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 7, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 7, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 7, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 8, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 8, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 8, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 9, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 9, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 9, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 10, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 10, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 10, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 11, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 11, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 11, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 12, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 12, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 12, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 13, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 13, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 13, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 14, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 14, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 14, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 15, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 15, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 15, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 16, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 16, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 16, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 17, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 17, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 17, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 18, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 18, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 18, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 19, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 19, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 19, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 20, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 20, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 20, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 21, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 21, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 21, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 22, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 22, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 22, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 23, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 23, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 23, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 24, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 24, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 24, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 25, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 25, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 25, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 26, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 26, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 26, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 27, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 27, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 27, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 28, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 28, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 28, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}
+{"trial": 29, "kind": "before_commit", "exit": 71, "intermediate": 14, "final": 10, "passed": true}
+{"trial": 29, "kind": "after_commit", "exit": 72, "intermediate": 10, "final": 10, "passed": true}
+{"trial": 29, "kind": "concurrent_32", "accepted": 1, "final": 10, "passed": true}

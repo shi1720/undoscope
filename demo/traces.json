@@ -1,0 +1,1750 @@
+{
+  "same-value": {
+    "scenario": "same-value",
+    "description": "The agent sets triage. An operator independently confirms triage. A value-only inverse cannot see the difference.",
+    "results": [
+      {
+        "policy": "snapshot",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "mapped",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "value",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "object",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        }
+      },
+      {
+        "policy": "field",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        }
+      },
+      {
+        "policy": "undoscope",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "peer-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        }
+      }
+    ]
+  },
+  "shared-grant": {
+    "scenario": "shared-grant",
+    "description": "Both the agent and an independent workflow grant the same contractor access. Recovery may remove only the agent's grant.",
+    "results": [
+      {
+        "policy": "snapshot",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 3,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "mapped",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 3,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "value",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 3,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "object",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        }
+      },
+      {
+        "policy": "field",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        }
+      },
+      {
+        "policy": "undoscope",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": [
+            "contractor"
+          ]
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 2,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "effect-0": "contractor",
+            "peer-0": "contractor"
+          },
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 3,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {
+            "peer-0": "contractor"
+          },
+          "rev": 3
+        }
+      }
+    ]
+  },
+  "disjoint-change": {
+    "scenario": "disjoint-change",
+    "description": "An operator adds a note after the agent changes status. Recovery should restore status and preserve the note.",
+    "results": [
+      {
+        "policy": "snapshot",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "mapped",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "value",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "object",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        }
+      },
+      {
+        "policy": "field",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      },
+      {
+        "policy": "undoscope",
+        "before": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "triage"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "compensated"
+        },
+        "after": {
+          "fields": {
+            "note": "keep-this-note",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 2
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "effect-0",
+              "value": "triage"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 2
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 0,
+            "grant": 0,
+            "set": 3
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "peer-0",
+              "value": "keep-this-note"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "generation-original",
+          "grants": {},
+          "rev": 3
+        }
+      }
+    ]
+  },
+  "name-reuse": {
+    "scenario": "name-reuse",
+    "description": "A resource is deleted and recreated under the same name. The original creation receipt must not delete its replacement.",
+    "results": [
+      {
+        "policy": "snapshot",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      },
+      {
+        "policy": "mapped",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      },
+      {
+        "policy": "value",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      },
+      {
+        "policy": "object",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      },
+      {
+        "policy": "field",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      },
+      {
+        "policy": "undoscope",
+        "before": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "result": {
+          "status": "incarnation_conflict"
+        },
+        "after": {
+          "fields": {
+            "note": "original",
+            "status": "open"
+          },
+          "balance": 10,
+          "members": []
+        },
+        "raw_before": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        },
+        "raw_after": {
+          "component_rev": {
+            "add": 0,
+            "create": 1,
+            "grant": 0,
+            "set": 0
+          },
+          "credits": {
+            "initial": 10
+          },
+          "fields": {
+            "note": {
+              "head": "initial",
+              "value": "original"
+            },
+            "status": {
+              "head": "initial",
+              "value": "open"
+            }
+          },
+          "generation": "peer-0",
+          "grants": {},
+          "rev": 1
+        }
+      }
+    ]
+  }
+}
