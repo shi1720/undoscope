@@ -6,9 +6,9 @@
 
 **Main topic:** Securing AI
 
-**Related topics:** Agentic AI; Application Security; Architecture; Security Testing
+**Additional tag:** Agentic AI
 
-**Level:** Intermediate / advanced practitioner
+**Level:** Intermediate
 
 **Language:** English
 
@@ -34,7 +34,7 @@ This is a research-backed engineering talk with working local demonstrations. Th
 
 Planned running order: 0-7 minutes, break a permission cleanup; 7-17, define the recovery threat model and supported effect types; 17-30, demonstrate value, snapshot, and coarse-version failures/tradeoffs; 30-44, implement the receipt-bound transactional adapter; 44-53, run crash/retry checks and explain the paired model findings; 53-60, integration checklist and questions.
 
-Demos run locally without conference Wi-Fi or paid APIs. An offline trace viewer is included as a fallback; the CLI and MCP adapter execute the operations live. The talk will clearly explain the limits for dependent workflows, irreversible effects, and external APIs without conditional writes.
+Demos run locally without conference Wi-Fi or paid APIs. An offline trace viewer is included as a fallback; the CLI and MCP adapter execute the operations live. The talk explains the limits for dependent workflows, irreversible effects, and external APIs without conditional writes.
 
 Artifact: https://github.com/shi1720/undoscope
 Paper: https://github.com/shi1720/undoscope/blob/main/output/pdf/undoscope-paper.pdf
@@ -45,9 +45,9 @@ This talk has not previously been presented at a conference. No prior-talk recor
 
 **Shivam Gupta**
 
-**Tagline:** Applied AI Engineer and Founder, Siloed
+**Account tagline retained:** AI Product Engineer and Open-Source Builder
 
-**Biography:** Shivam Gupta is an applied AI engineer and founder of Siloed, an AI product consultancy. He builds production LLM applications and operational agents, with work spanning enterprise software, structured-output validation, evaluation harnesses, and observability. His experience includes senior AI product engineering roles across enterprise and education products, and leading practical AI adoption workshops for technical and business teams. He holds a B.Tech in Computer Science and Design from IIIT Delhi. His current research focuses on making agent behavior reproducible, inspectable, and safer at the boundary between language models and application state.
+**Speaker context included in reviewer notes:** Shivam Gupta is an applied AI engineer and founder of Siloed, an AI product consultancy. He builds production LLM applications and operational agents, with work spanning enterprise software, structured-output validation, evaluation harnesses, and observability. He holds a B.Tech in Computer Science and Design from IIIT Delhi. The existing account biography was retained.
 
 **Email:** shivam1720406@gmail.com
 

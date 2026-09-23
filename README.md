@@ -6,7 +6,7 @@ An agent can select the correct undo operation and still erase someone else's wo
 
 [Read the paper](output/pdf/undoscope-paper.pdf) · [Open the offline demo](demo/index.html) · [Research protocol](protocol/research-plan.md) · [Literature audit](protocol/literature-review.md)
 
-Author: **Shivam Gupta**. Technical report, 23 September 2026. This artifact supports a practitioner talk proposal for NDC Security 2027; it is not an accepted conference paper.
+Author: **Shivam Gupta**. Technical report, 23 September 2026. The accompanying 60-minute NDC Security 2027 talk proposal was submitted on 23 September 2026 and is in evaluation. This is not an accepted conference paper. See the [submission record](submission/status.md).
 
 ## What was actually measured
 
